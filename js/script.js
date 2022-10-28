@@ -6,7 +6,7 @@ let wrongRes = document.querySelector('#wrongRes');
 if (fName.value === '' || '' || '' || '') {
   fReq.style.display = 'block';
 } else {
-  
+  wrongRes.innerHTML = 'Սա մենակ հասուկի համարա պատրաստված'
 }
 
 /*let fBtn = document.querySelector("#fBtn");
