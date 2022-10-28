@@ -3,10 +3,10 @@ let fReq = document.querySelector('#fReq');
 
 let wrongRes = document.querySelector('#wrongRes');
 
-if (fName.value === '' || '' || '' || '') {
+if (fName.value === 'Հասմիկ' || 'հասուկ' || 'Հասուկի' || 'Հասո') {
   fReq.style.display = 'block';
 } else {
-  wrongRes.innerHTML = 'Սա մենակ հասուկի համարա պատրաստված'
+  wrongRes.innerHTML = 'Սա մենակ հասուկի համարա պատրաստված, էնպես, որ ՀԱՋՈՂՈՒԹՅՈՒՆ ' + fName;
 }
 
 /*let fBtn = document.querySelector("#fBtn");
