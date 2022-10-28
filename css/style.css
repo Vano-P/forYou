@@ -18,3 +18,9 @@ main{
   justify-content: center;
   align-items: center;
 }
+#fname{
+  display: block;
+}
+#fReq{
+  display: none;
+}
