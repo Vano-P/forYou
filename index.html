@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
   <title>For You</title>
 </head>
 <body>
@@ -14,13 +13,17 @@
     </header>
     <main>
       <input type="text" id="fName" placeholder="Ինչա Քո անունը?" />
-      <div id='wrongRes'></div>
-      <input type="text" id="fReq" placeholder='' />
+      <button onclick="fBtnF()" id="fBtn">Enter</button>
+      <input type="text" id="fReq" placeholder="Դու ում էս սիրում?" />
+      <button onclick="sBtnF()" id="sBtn">Enter</button>
+      <input type="text" id="sReq" placeholder="Ուզումես ամուսնանաս?" />
+      <button onclick="tBtnF()" id="tBtn">Enter</button>
+      
     </main>
     <footer>
-      
+      <h2 class="inText"></h2>
     </footer>
   </div>
-  <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
