@@ -7,6 +7,8 @@ let sReq = document.querySelector('#sReq');
 let tBtn = document.querySelector('#tBtn');
 let h2 = document.querySelector('h2');
 let h2T = document.querySelector('.inText');
+let block = body.querySelector('#block');
+let text = body.querySelector('.text');
 
 function fBtnF(){
   if (
@@ -67,6 +69,8 @@ function tBtnF(){
     tBtn.style.display = 'none';
     h2.innerHTML='❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️';
     h2T.innerHTML='❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️';
+    block.style.display = 'block';
+    text.classList.add('textR');
   } else if (sReq.value === '') {
     tBtnF();
   } else {
